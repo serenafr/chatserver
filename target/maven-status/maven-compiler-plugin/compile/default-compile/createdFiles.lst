@@ -1,0 +1,6 @@
+me/christine/chatserver/User.class
+me/christine/chatserver/Message.class
+me/christine/chatserver/SendMessageServlet.class
+me/christine/chatserver/SignUpServlet.class
+me/christine/chatserver/SignUpInfo.class
+me/christine/chatserver/ContactlistServlet.class

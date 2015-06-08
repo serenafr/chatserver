@@ -1,0 +1,140 @@
+body {
+	background-color: #cccccc;
+}
+
+#main-panel {
+	margin-top: 60px; 
+	margin-left: 100px; 
+	width: 900px; 
+}
+
+#contact-panel {
+	float: left; 
+	width: 250px; 
+	height: 600px; 
+	background-color: #f5f5f5;
+}
+
+.contact {
+	border-bottom-width: 1px;
+	border-bottom-color: #d5d6d7;
+	border-bottom-style: solid;
+	padding: 5px 10px;
+}
+
+.contact:hover {
+	background: white;
+}
+
+.contact:active {
+	background: #cccccc;
+}
+
+.contact.selected {
+	background: #bbbbbb;
+}
+
+.contact.new-message {
+	font-weight: bold;
+	background: #dddddd;
+}
+
+#chat-panel {
+	float: right; 
+	width: 600px; 
+	height: 600px; 
+	background-color: #eff3f7;
+}
+
+#clear-panel {
+	clear: both;
+}
+
+#chat-header {
+	height:50px;
+	background-color: #5d6876;
+	border-bottom-width: 1px;
+	border-bottom-color: #d5d6d7;
+	border-bottom-style: solid;
+}
+
+#chat-history {
+	height: 500px;
+	border-bottom-width: 1px;
+	border-bottom-color: #d5d6d7;
+	border-bottom-style: solid;
+}
+
+#chat-input {
+	height: 100px;
+	padding: 10px;
+}
+
+#chat-input-box {
+	height: 28px;
+	width: 500px;
+	font-size: 18px;
+}
+
+#send-button {
+	width: 52px;
+	margin-left: 10px;
+	display: inline-block;
+	background: #c3d3e3;
+	padding: 4px;
+	text-align: center;
+	height: 18px;
+}
+
+#send-button:hover {
+	background: #d3e3f3;
+}
+
+#send-button:active {
+	background: #a3b3c3;
+}
+
+#chat-name {
+	text-align: center;
+	padding: 10px;
+	font-size: 20px;
+	color: #effef7;
+}
+
+#close-button {
+	float: right;
+	padding: 15px;
+	cursor: pointer;
+}
+
+#close-button:hover {
+	color: #effef7;
+}
+
+.message-me {
+	float: right;
+	clear: both;
+	border: 1px solid #d9d9d9;
+	background: #ffffff;
+	padding: 6px;
+	margin: 6px 10px 0 0;
+	font-size: 20px;
+	max-width: 450px;
+	word-wrap: break-word;
+	text-align: right;
+	border-radius: 5px;
+}
+
+.message-received {
+	float: left;
+	clear: both;
+	border: 1px solid #d9d9d9;
+	background: #ffffff;
+	padding: 6px;
+	margin: 6px 0 0 10px;
+	font-size: 20px;
+	max-width: 450px;
+	word-wrap: break-word;
+	text-align: left;
+	border-radius: 5px;
+}

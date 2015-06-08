@@ -1,0 +1,36 @@
+<html>
+	<head>		
+		<script src="script/chat.js"></script>
+		<script src="script/contactlist.js"></script>
+		<script src="script/contact.js"></script>
+		<script src="script/conversation.js"></script>
+		<script src="script/chatpanel.js"></script>
+		<script src="script/message.js"></script>
+		<script src="script/conversation.js"></script>
+		<script src="script/conversationmanager.js"></script>
+		<script src="script/util.js"></script>
+		<title>Chat</title>
+		<link rel="stylesheet" type="text/css" href="css/chat.css">
+	</head>
+	<body onload="init();">
+		<div id="main-panel">
+			<div id="contact-panel">
+				<div id="contact-list">
+				</div>				
+			</div>
+			<div id="chat-panel" style="display:none">
+				<div id="chat-header">
+					<div id="close-button">✕</div>
+					<div id="chat-name"></div>
+				</div>	
+				<div id="chat-history"></div>
+				<div id="chat-input">
+					<input id="chat-input-box">
+					<div id="send-button">Send</div>
+				</div>			
+			</div>
+			<div id="clear-panel">				
+			</div>
+		</div>		
+	</body>
+</html>

@@ -1,0 +1,48 @@
+#info-panel {
+	float: left;
+	margin: 100px 0 0 100px;
+	background-color: #f1f1f1;
+	width: 350px;
+	height: 500px;
+}
+
+.info-holder {
+	margin: 20px;
+}
+
+.info-holder-text {
+	padding-bottom: 5px;
+}
+
+.info-holder-input {
+	width: 300px;
+	height: 30px;
+}
+
+#agreement {
+	font-size: 15px;
+}
+
+#register {
+	padding-left: 150px;
+}
+
+#register-button {
+	padding: 5px;
+}
+
+.if-empty {
+	width: 300px;
+	height: 30px;
+	border-color: red;
+}
+
+.info-hidden {
+	display: none;
+}
+
+.info-empty-warning {
+	font-size: 10px;
+	color: red;
+	padding: 2px;
+}

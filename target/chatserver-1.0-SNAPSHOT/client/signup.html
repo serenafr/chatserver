@@ -1,0 +1,55 @@
+<html>
+	<head>	
+		<script src="script/signup.js"></script>	
+		<link rel="stylesheet" type="text/css" href="css/signup.css">
+		<title></title>
+	</head>
+	<body>
+		<div id="info-panel">
+			<div id="user-name" class="info-holder">
+				<div id="user-name-text" class="info-holder-text">Chose your user name</div>
+				<input id="user-name-input" class="info-holder-input" type="text" placeholder="Enter your email address">
+				<div id="user-name-empty" class="info-hidden">This field can't be empty!</div>
+			</div>
+			<div id="password" class="info-holder">
+				<div id="password-text" class="info-holder-text">Create a password</div>
+				<input id="password-input" class="info-holder-input" type="password" placeholder="Create your password">
+				<div id="user-password-empty" class="info-hidden">This field can't be empty!</div>
+				<div id="user-password-conflict" class="info-hidden">Passwords not the same, please double check!</div>
+			</div>
+			<div id="password-confirm" class="info-holder">
+				<div id="password-confirm-text" class="info-holder-text">Confirm password</div>
+				<input id="password-confirm-input" class="info-holder-input" type="password" placeholder="Confirm your password">
+				<div id="confirm-password-empty" class="info-hidden">This field can't be empty!</div>
+				<div id="confirm-password-conflict" class="info-hidden">Passwords not the same, please double check!</div>
+			</div>
+			<div id="security-questions-holder" class="info-holder">
+				<div id="security-questions-text" class="info-holder-text">Choose a security question</div>
+				<select id="security-questions" class="info-holder-input">
+					<option value="0">Choose a security question:</option>
+					<option value="1">What was the name of your elementary / primary school?</option>
+					<option value="2">In what city or town does your nearest sibling live?</option>
+					<option value="3">What time of the day were you born? (hh:mm)</option>
+					<option value="4">What's the name of your first pet?</option>
+					<option value="5">What's the brand of your first car?</option>
+					<option value="6">Where did your parents get married?</option>
+					<option value="7">What's the name of the city or town that you were born?</option>
+					<option value="8">What's the name of your kid's teacher?</option>
+					</select>
+				<div id="security-question-not-selected" class="info-hidden">Please choose a security question!</div>
+			</div>
+			<div id="security-answer" class="info-holder">
+				<div id="security-answer-text" class="info-holder-text">Input your answer</div>
+				<input id="security-answer-input" class="info-holder-input" type="text" placeholder="Input your answer to your security question">
+				<div id="answer-empty" class="info-hidden">This field can't be empty!</div>
+			</div>
+			<div id="agreement" class="info-holder">
+				<input id="check-box" type="checkbox">I agree to Chat Terms of Service and Privacy Policy</br>
+				<div id="not-checked" class="info-hidden">Please check the checkbox!</div>
+			</div>
+			<div id="register">
+				<button id="register-button">Register</button>
+			</div>
+		</div>
+	</body>
+</html>

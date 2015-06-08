@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE web-app PUBLIC
+ "-//Oracle Corporation//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="2.5">
+    <servlet>
+        <servlet-name>contactlist</servlet-name>
+        <servlet-class>me.christine.chatserver.ContactlistServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>sendmessage</servlet-name>
+        <servlet-class>me.christine.chatserver.SendMessageServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>signup</servlet-name>
+        <servlet-class>me.christine.chatserver.SignUpServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>contactlist</servlet-name>
+        <url-pattern>/contactlist</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>sendmessage</servlet-name>
+        <url-pattern>/sendmessage</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>signup</servlet-name>
+        <url-pattern>/signup</url-pattern>
+    </servlet-mapping>
+    <static-files>
+        <public-root>
+            /client
+        </public-root>
+    </static-files>
+    <welcome-file-list>
+        <welcome-file>client/chat.html</welcome-file>
+    </welcome-file-list>
+</web-app>

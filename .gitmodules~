@@ -1,0 +1,3 @@
+[submodule "src/main/webapp/client"]
+	path = src/main/webapp/client
+	url = https://github.com/serenafr/chat.git
