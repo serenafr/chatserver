@@ -1,4 +1,5 @@
-appengine-skeleton
-=============================
+# Chat Server
 
-This is a generated application from the appengine-skeleton archetype.
+The sever side of web app [chat](https://github.com/serenafr/chat). 
+
+The server is designed to be run on Google App Engine.
